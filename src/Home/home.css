@@ -1,0 +1,80 @@
+body{
+  margin: 0 auto;
+}
+
+.intro{
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 4em;
+}
+
+@media all and (min-width: 450px){
+ .intro{
+    padding: 0 .5em;
+  }
+}
+
+.intro .background{
+  max-width: 100%;
+}
+
+@media all and (min-width: 450px){
+  .intro .background{
+    padding: 0;
+  }
+}
+
+.intro .introText{
+  margin-top: -15em;
+  text-align: center;
+}
+
+@media all and (min-width: 450px){
+  .intro .introText{
+    margin: -20em 0 0 1.5em;
+  }
+}
+
+.green{
+  color: #174E29;
+}
+
+.joinUs1 button{
+  width: 30%;
+  height: 2.5em;
+  border-radius: 5px 14px 5px 14px;
+  background: #377A3E;
+  border: none;
+  margin: 1em;
+}
+
+@media all and (min-width: 450px){
+  .joinUs1 button{
+    width: 15%;
+    height: 3.5em;
+  }
+}
+
+.offer{
+  text-align: center;
+}
+
+@media all and (min-width: 450px){
+  .offer{
+    margin-left: 2em;
+  }
+}
+
+.offer h2{
+  margin-top: 2em;
+}
+
+.offer img{
+  border-radius: 50%;
+  max-width: 70%;
+  margin-bottom: -1em;
+}
+
+.offer b{
+  color: #29B12C;
+}

@@ -1,0 +1,64 @@
+@font-face {
+  font-family: Abel;
+  src: url("../fonts/Abel-Regular.ttf");
+}
+
+#menu{
+  position: fixed;
+  display: block;
+  text-align: center;
+  width: 75%;
+  min-height: 60vh;
+  background: rgba(52, 170, 92, 1);
+  margin: -1em 0 0 -.5em;
+  border-radius: 0 0 20px 0;
+  color: rgb(255,255,255);
+  transition: all 1s ease-in-out;
+  z-index: 10;
+}
+
+#menu .closeBtn{
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  align-content: center;
+  margin-top: 3em;
+}
+
+.userLink{
+  margin: 3em 1.5em;
+}
+
+.userLink a{
+   color: rgba(255, 255, 255, 1);
+   text-decoration: none;
+   font-family: Abel;
+}
+
+.infoLink a, .menuBar2 a{
+  color: rgba(11, 75, 17, 1);
+  text-decoration: none;
+  font-family: Abel;
+}
+
+.buttons{
+  margin: 3em auto;
+}
+
+.buttons .btn1{
+  transform: translateX(-1em);
+}
+
+.buttons button{
+  width: 38%;
+  height: 2.5em;
+  border-radius: 5px 14px 5px 14px;
+  background: rgba(41, 123, 49, 1);
+  border: none;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+  font-family: Abel;
+}

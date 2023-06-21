@@ -1,0 +1,89 @@
+#footer{
+  margin: 5em 0 0 0;
+  background: rgba(17, 74, 22, 1);
+  padding: 1em;
+}
+
+@media all and (min-width: 450px) {
+  #footer {
+    font-size: 1.3em;
+    width: 100%;
+  }
+}
+
+#footer #logo{
+  width: 7em;
+  height: 5em;
+  background: url("../images/20230212_151644.png");
+  background-size: 140%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media all and (min-width: 450px){
+  #footer #logo{
+    width: 6em;
+  }
+}
+
+.links{
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: repeat(4, auto);
+}
+
+@media all and (min-width: 450px) {
+  .links{
+    margin: -2em 0 0 3em;
+  }
+}
+
+.links a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.joinUs button{
+  width: 30%;
+  height: 2.5em;
+  border-radius: 5px 14px 5px 14px;
+  background: #fff;
+  border: none;
+  margin-bottom: 1.5em;
+}
+
+@media all and (min-width: 450px) {
+  .joinUs button{
+    width: 15%;
+    height: 3em;
+    margin-left: 7em;
+  }
+  
+  .joinUs1 button{
+    margin-left: 1em;
+  }
+}
+
+.joinUs button a{
+  text-decoration: none;
+  color: rgba(22, 193, 49, 1);
+  font-family: Abel;
+}
+
+@media all and (min-width: 450px){
+  .joinUs button a, .joinUs1 button a{
+    font-size: 1.7em;
+  }
+}
+
+#footer .text{
+  color: #fff;
+  text-align: center;
+  line-height: .5em;
+}
+
+@media all and (min-width: 450px){
+  #footer .text{
+    margin-bottom: -1em;
+  }
+}

@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Abel;
+  src: url("../fonts/Abel-Regular.ttf");
+}
+
+#navBar nav{
+  position: fixed;
+  margin-top: 0;
+  width: 100%;
+  background: white;
+  max-height: 3em;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 30% 40% 30%;
+  overflow: hidden;
+  z-index: 5;
+}
+
+@media all and (min-width: 450px) {
+  #navBar nav{
+    margin-left: 0;
+    grid-template-columns: 40% 20% 40%;
+  }
+}
+
+nav .menuBtn{
+  width: 1.6em;
+  height: 1.3em;
+  margin: .8em 0 0 .5em;
+}
+
+@media all and (min-width: 450px){
+  nav .menuBtn{
+    display: none;
+  }
+}
+
+nav .logo{
+  width: 9.5em;
+  height: 6em;
+  margin: -1.2em 0 0 0;
+}
+
+nav .navDiscuss a{
+  color: #377A3E;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media all and (min-width: 450px){
+  nav .navDiscuss{
+    display: none;
+  }
+  
+  nav .logo{
+    margin-left: -1.3em;
+  }
+}
+
+.menuBar1, .menuBar2{
+  display: none;
+}
+
+@media all and (min-width: 450px){
+ .menuBar1, .menuBar2{
+   display: grid;
+   grid-template-rows: 100%;
+   grid-template-columns: repeat(3, auto);
+  }
+  
+  .menuBar1{
+    margin-left: 2em;
+  }
+  
+  .menuBar1 a, .menuBar2 a{
+    color: rgba(11, 75, 17, 1);
+    text-decoration: none;
+    font-family: Abel;
+  }
+}

@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Abel;
+  src: url("/src/fonts/Abel-Regular.ttf");
+}
+
+body{
+  margin: 2.5em 2em;
+  font-family: Abel;
+}
+
+@media all and (min-width: 450px) {
+  body{
+    font-size: 1.7em;
+  }
+}
+
+.logo{
+  width: 7em;
+  height: 3.5em;
+  background: url("/src/images/20230207_083335.png");
+  background-position: center;
+  background-size: 260%;
+  background-repeat: no-repeat;
+  margin-left: 35%;
+}
+
+@media all and (min-width: 450px) {
+  .logo{
+    margin-left: 40%;
+  }
+}
+
+.welcome{
+  text-align: center;
+  padding-top: 3em;
+  font-size: .9em;
+}
