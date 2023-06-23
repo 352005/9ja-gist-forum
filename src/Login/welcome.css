@@ -3,13 +3,13 @@
   src: url("/src/fonts/Abel-Regular.ttf");
 }
 
-body{
+#welcome{
   margin: 2.5em 2em;
   font-family: Abel;
 }
 
 @media all and (min-width: 450px) {
-  body{
+  #welcome{
     font-size: 1.7em;
   }
 }
