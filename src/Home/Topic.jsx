@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link,useNavigate }from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 import './topic.css';
 import governmentImg from '../images/f8d7ed14b6315cf32e94d99b13db76b2.jpg';
 

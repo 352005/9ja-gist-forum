@@ -1,0 +1,45 @@
+.searchHeader{
+  margin: 1em 1em 0 1em;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 3em 15em;
+}
+
+.closeBtn{
+  width: 1em;
+  height: 1em;
+}
+
+.searchHeader p{
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: -0.2em;
+  font-family: Ubuntu;
+}
+
+.searchDiv .fa-magnifying-glass{
+  margin-left: 1em;
+}
+
+.searchDiv input{
+  margin: -2em 0 0 1em;
+  outline: none;
+  border: none;
+  height: 3em;
+  width: 80%;
+}
+
+.searchDiv input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    cursor: pointer;
+    margin-right: 2em;
+    height: 1.3em;
+    width: 1.3em;
+    background-image: url("../images/circle-xmark-solid.svg");
+}
+
+.suggestion p{
+  margin-left: .5em;
+  font-family: Ubuntu;
+  font-size: 1.2em;
+}

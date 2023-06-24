@@ -3,6 +3,11 @@
   src: url("/src/fonts/Abel-Regular.ttf");
 }
 
+@font-face {
+  font-family: Ubuntu;
+  src: url("/src/fonts/UbuntuCondensed-Regular.ttf");
+}
+
 body{
   margin: 0 auto;
   font-family: Abel;
