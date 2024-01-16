@@ -1,11 +1,11 @@
 @font-face {
   font-family: Abel;
-  src: url("/src/fonts/Abel-Regular.ttf");
+  src: url("../fonts/Abel-Regular.ttf");
 }
 
 @font-face {
   font-family: Ubuntu;
-  src: url("/src/fonts/UbuntuCondensed-Regular.ttf");
+  src: url("../fonts/UbuntuCondensed-Regular.ttf");
 }
 
 body{
